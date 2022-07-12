@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "548909453811",
+    "project_id": "ecommerce-app-a58fc",
+    "storage_bucket": "ecommerce-app-a58fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548909453811:android:f0337d15b75b23829b4286",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548909453811-3itq7ep7s6rs7sb9lo0iiqi6abrbvjfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfjt7FdDjZp-JrbHTi8cc5ZMOyiE0C9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548909453811-3itq7ep7s6rs7sb9lo0iiqi6abrbvjfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548909453811:android:358a7688a9cc700a9b4286",
+        "android_client_info": {
+          "package_name": "com.example.zezo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548909453811-3itq7ep7s6rs7sb9lo0iiqi6abrbvjfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfjt7FdDjZp-JrbHTi8cc5ZMOyiE0C9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548909453811-3itq7ep7s6rs7sb9lo0iiqi6abrbvjfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
