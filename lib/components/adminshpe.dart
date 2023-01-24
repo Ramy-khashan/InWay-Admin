@@ -1,3 +1,4 @@
+import 'package:admin/core/constant/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class ItemShape extends StatelessWidget {
@@ -39,7 +40,7 @@ class ItemShape extends StatelessWidget {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               colors: [
-                Theme.of(context).primaryColor.withOpacity(.7),
+              AppColors.primaryColor.withOpacity(.7),
                 Colors.black87
               ])),
       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [

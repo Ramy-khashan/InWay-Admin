@@ -40,9 +40,10 @@ dependencies:
   firebase_storage: 
   cloud_firestore: 
   shared_preferences: 
-  image_picker: 
+  image_picker: ^0.8.4+7
   regexpattern: 
   fluttertoast:
+  awesome_dialog: 
   url_launcher: ^6.1.4
 
 dev_dependencies:

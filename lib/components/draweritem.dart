@@ -1,5 +1,7 @@
-import 'package:admin/constant.dart';
+ 
 import 'package:flutter/material.dart';
+
+import '../core/constant/app_colors.dart';
 
 class DrawerItem extends StatelessWidget {
   final Function()? onTap;
@@ -36,7 +38,7 @@ class DrawerItem extends StatelessWidget {
       child: ListTile(
         leading: Icon(
           icon!,
-          color: mainColor1,
+          color: AppColors.primaryColor,
           size: size!.shortestSide * .08,
         ),
         title: Text(

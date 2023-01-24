@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-
-import '../constant.dart';
-
+import 'package:admin/core/constant/app_colors.dart';
+import 'package:flutter/material.dart'; 
 class TextFieldItem extends StatelessWidget {
   const TextFieldItem(
       {this.isPassword = false,
@@ -35,9 +33,10 @@ class TextFieldItem extends StatelessWidget {
         controller: controller,
         maxLines: lines,
         keyboardType: type,
+        cursorColor:AppColors.textColor ,
         obscureText: isPassword! ? isScure! : false,
         decoration: InputDecoration(
-          labelStyle: TextStyle(color: Theme.of(context).primaryColor),
+          labelStyle: const TextStyle(color: AppColors.primaryColor),
           suffixIcon: isPassword!
               ? IconButton(
                   onPressed: onTap,
@@ -47,16 +46,16 @@ class TextFieldItem extends StatelessWidget {
                           : Icons.visibility_rounded,
                       color: isScure!
                           ? Colors.grey
-                          : Theme.of(context).primaryColor))
+                          :AppColors.primaryColor))
               : const SizedBox(),
           prefixIcon: Icon(
             icon,
-            color: mainColor1,
+            color: AppColors.primaryColor,
           ),
           labelText: lable,
-          focusedBorder: OutlineInputBorder(
+          focusedBorder: const OutlineInputBorder(
               borderSide:
-                  BorderSide(color: Theme.of(context).primaryColor, width: 2)),
+                  BorderSide(color:AppColors.primaryColor, width: 2)),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(5),
           ),
